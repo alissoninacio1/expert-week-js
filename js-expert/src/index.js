@@ -29,7 +29,7 @@ const GENDER = {
 const CURRENT_YEAR = 2021
 Date.prototype.getFullYear = () => CURRENT_YEAR //toda vez que chamarem o getFULLYEar - ele retornara o current Year
 /*
-without instanciate with new we access this method directly with prototypes
+without instanciate with and using the keyword 'new', we access this method directly with prototypes
 ex.: 
 const birthday = ne Date('August 19')
 console.log(birthday.getDate())
